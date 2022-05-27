@@ -7,6 +7,7 @@ public class PController {
     public PController(double target, double gain){
         this.target = target;
         this.gain = gain;
+        calls_counter = 0;
         System.out.println("PControllert target="+this.target+", gain="+this.gain);
     }
 
